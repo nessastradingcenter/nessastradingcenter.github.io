@@ -8,9 +8,9 @@ theme:
   icon: 
     logo: material/emoticon-cry-outline
 nav: 
-  - Home: "PAGENAME.md"
-  - Haves: "PAGENAME.md"
-  - Wants: "PAGENAME.md"
+  - Home: "index.md"
+  - Haves: "have.md"
+  - Wants: "wants.md"
 plugins:
   - macros
   - table-reader:

@@ -1,0 +1,31 @@
+site_name: SITENAME
+site_url: https://SITENAME.github.io/
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: pink
+  icon: 
+    logo: material/emoticon-cry-outline
+nav: 
+  - Home: "PAGENAME.md"
+  - Haves: "PAGENAME.md"
+  - Wants: "PAGENAME.md"
+plugins:
+  - macros
+  - table-reader:
+      data_path: "docs/tables/"
+      allow_missing_files: True
+  - search
+  - git-revision-date-localized
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - mdx_linkify
+extra_css:
+  - css/github-tables.css
+  - css/extra.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js

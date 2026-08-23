@@ -14,7 +14,7 @@ nav:
 plugins:
   - macros
   - table-reader:
-      data_path: "docs/tables/"
+      data_path: "tables/"
       allow_missing_files: True
   - search
   - git-revision-date-localized

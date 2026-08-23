@@ -9,7 +9,7 @@ theme:
     logo: material/emoticon-cry-outline
 nav: 
   - Home: "index.md"
-  - Haves: "have.md"
+  - Haves: "haves.md"
   - Wants: "wants.md"
 plugins:
   - macros
